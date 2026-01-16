@@ -14,11 +14,10 @@ const PhotoCard = ({ src, alt, category, onClick }: PhotoCardProps) => {
     <motion.div
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.98 }}
-      className="
-        relative overflow-hidden rounded-2xl cursor-pointer
-        h-48 sm:h-60 md:h-72 lg:h-80 xl:h-96
-        w-full
-      "
+      className={
+        "relative overflow-hidden rounded-2xl cursor-pointer " +
+        "aspect-[4/5] w-full"
+      }
       onClick={onClick}
     >
       <img
