@@ -11,11 +11,11 @@ const Footer = () => {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Camera className="h-8 w-8" />
               <span className="font-display text-2xl font-bold">
-                Capture Studio
+                ZAZZMATA STUDIO
               </span>
             </Link>
             <p className="text-white/80 text-sm leading-relaxed max-w-xs">
-              Capturing beautiful moments with artistry and passion.
+              Eaststreet Galleria Shop No. 7 , Bassment eaststreet Camp 41101
             </p>
           </div>
 
