@@ -104,9 +104,10 @@ const page = () => {
                 key={pkg.name}
                 variants={fadeUpVariants}
                 whileHover={{ scale: 1.02 }}
-                className={`relative rounded-3xl p-8 shadow-lg ${pkg.bgColor} ${
-                  pkg.popular ? pkg.borderColor : ""
-                }`}
+                className={`relative rounded-3xl p-8 shadow-lg 
+                flex flex-col h-full
+                ${pkg.bgColor} ${pkg.popular ? pkg.borderColor : ""}
+              `}
               >
                 {pkg.popular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-4 py-1 rounded-full text-sm font-semibold">
@@ -143,11 +144,12 @@ const page = () => {
 
                 <button
                   className="
-                w-full bg-black text-white py-3 px-6 rounded-2xl cursor-pointer
-                text-base sm:text-lg md:text-xl lg:text-2xl
-                hover:scale-[1.03]
-                transition-all duration-300
-              "
+                    mt-auto
+                    w-full bg-black text-white py-3 px-6 rounded-2xl cursor-pointer
+                    text-base sm:text-lg md:text-xl lg:text-2xl
+                    hover:scale-[1.03]
+                    transition-all duration-300
+                  "
                 >
                   <Link
                     href="/contact"
