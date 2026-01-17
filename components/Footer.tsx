@@ -11,7 +11,7 @@ const Footer = () => {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Camera className="h-8 w-8" />
               <span className="font-display text-2xl font-bold">
-                ZAZZMATA STUDIO
+                ZAZZMATAZ STUDIO
               </span>
             </Link>
             <p className="text-white/80 text-sm leading-relaxed max-w-xs">
@@ -77,23 +77,23 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Get in Touch</h3>
             <ul className="space-y-3 text-white/80">
               <li className="flex items-center gap-2">
-                <Phone size={16} /> <span>(555) 123-4567</span>
+                <Phone size={16} /> <span>+91 9832424210</span>
               </li>
               <li className="flex items-center gap-2">
-                <Mail size={16} /> <span>hello@capturestudio.com</span>
+                <Mail size={16} /> <span>zazzmatazphotostudio@gmail.com</span>
               </li>
             </ul>
 
             <div className="flex gap-4 mt-4">
               <a
-                href="https://instagram.com"
+                href="hhttps://www.instagram.com/zazzmataz_studio?igsh=MWN1OTlsYTY0Ymk3bg=="
                 target="_blank"
                 className="text-white/80 hover:text-white transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/17oy6Hwt8N/"
                 target="_blank"
                 className="text-white/80 hover:text-white transition-colors"
               >
