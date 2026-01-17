@@ -86,7 +86,7 @@ const Footer = () => {
 
             <div className="flex gap-4 mt-4">
               <a
-                href="hhttps://www.instagram.com/zazzmataz_studio?igsh=MWN1OTlsYTY0Ymk3bg=="
+                href="https://www.instagram.com/zazzmataz_studio?igsh=MWN1OTlsYTY0Ymk3bg=="
                 target="_blank"
                 className="text-white/80 hover:text-white transition-colors"
               >
